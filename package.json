@@ -1,0 +1,19 @@
+{
+  "name": "express-login-system",
+  "version": "1.0.0",
+  "description": "belajar express login system dengan bcrypt js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon . --watch",
+    "migration:auth": "node ./models/schema/authSchema.js"
+  },
+  "author": "fadliselaz",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.95.4",
+    "sqlite3": "^5.0.2"
+  }
+}

@@ -1,3 +1,10 @@
-// Buat sebuah variable bernama db untuk connection menggunakan KNEX
+const path = require("path");
 
-//export variable db
+const db = require("knex")({
+  client: "sqlite",
+  connection: {
+    filename: path.resolve(__dirname, "../../db.sqlite"),
+  },
+});
+
+module.exports = db;

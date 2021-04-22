@@ -12,7 +12,7 @@ Jadi kita akan membuat sebuah aplikasi absens siswa jvalley, dengan teknologi Ex
 Silakan teman teman clone repository ini, dan masuk kedalam foldernya, saya sudah buat structur folder, teman teman tinggal isi masing masing file yang sudah saya sediakan.
 
 ```bash
-git clone
+git clone https://github.com/jemblonganvalley/batch8_challenge_express.git
 ```
 
 Silakan buat branch baru sesuai nama teman teman, dengan cara :
@@ -26,3 +26,13 @@ contohnya :
 ```bash
 git checkout -b fadliselaz
 ```
+
+## Run SCHEMA
+
+Silakan jalankan schema yang sudah saya buat dengan cara,
+
+```bash
+npm run migration:auth
+```
+
+Nanti akan muncul sebuah file bernama **db.sqlite**, silakan teman teman koneksikan ke dbeaver

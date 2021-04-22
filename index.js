@@ -1,8 +1,7 @@
-//import dependencies yang dibutuhkan
-// express , cors , controller bernama auth
+//import dependencies yang di butuhkan
 
 //buat middleware
 
-//routing
+//use router auth
 
-//server listener port 8000
+//server listener
